@@ -11,7 +11,10 @@ def count_up(start, stop):
         6
         7
     """
-
+    while start <= stop:
+        print(start)
+        start = start + 1
+    
     # YOUR CODE HERE
 
 
